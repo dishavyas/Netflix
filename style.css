@@ -239,7 +239,7 @@ form button {
 }
 
 .faq {
-    height: 120vh;
+    height: 115vh;
     flex-direction: column;
     width: 100%;
     display: flex;
@@ -252,20 +252,20 @@ form button {
 }
 
 .faqs {
-    height: 70%;
-    width: 60%;
-    margin-top: 40px;
+    height: 25vh;
+    width: 50%;
+    /* margin-top: 40px; */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
     padding: 10px;
-    margin-top: 70px;
+    margin-top: 10%;
 }
 
 .questions {
     margin-top: 5px;
-    height: 90px;
+    height: 80px;
     width: 100%;
     background-color: #303030;
     display: flex;
@@ -275,7 +275,7 @@ form button {
     padding-right: 20px;
 }
 .faq-heading{
-    margin-top: 40px;
+    margin-top: 25%;
     font-size: 50px;
 }
 
@@ -292,6 +292,9 @@ form button {
     height: 100%;
     font-size: 30px;
 }
+.email p{
+    margin-top: 10%;
+}
 .email form{
     margin-bottom: 20%;
 }
@@ -303,13 +306,16 @@ form button {
     .faqs{
        margin-top: 20px;
        width: 90%;
-       height: 80vh;
+       height: 50vh;
     }
       .faq-heading{
-        margin-top: 110px;
+        margin-top: 20%;
         font-size: 20px;
     }
-    
+    .questions{
+        height: 50px;
+    }
+
     .questions h1{
         font-size:20px;
     }
