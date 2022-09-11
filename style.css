@@ -27,7 +27,6 @@ nav img {
 
 .links {
     width: 50%;
-    background-color: aqua;
     justify-content: space-between;
     display: flex;
 }
